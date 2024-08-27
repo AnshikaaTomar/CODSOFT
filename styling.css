@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #829b7ba9; 
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center; 
+}
+
+.header .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 40px;
+    font-family: "Nerko One", cursive;
+    font-weight: bold;
+    color: #4a4a4a; 
+    margin-bottom: 10px;
+}
+
+.header nav {
+    margin-top: 10px;
+}
+
+.header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px; 
+}
+
+.header .nav-links a {
+    text-decoration: none;
+    color: #0e0e0e;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.header .nav-links a:hover {
+    color: #589858;
+}
+
+.main {
+    background-color: #e6e5f2;
+    background-image: url(main.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+}
+
+.main h1 {
+    font-size: 48px;
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #cfb0b0; 
+}
+
+.main p {
+    font-size: 24px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.main .cta-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #0f460e; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main .cta-button:hover {
+    background-color: #16821f96; 
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    background-color: #c3d4b8; 
+    text-align: center;
+}
+
+.features .feature-item {
+    margin-bottom: 40px;
+}
+
+.features h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #4a9c2f;
+}
+
+.features p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+.cta-section {
+    background-image: url(join_section.jpeg); 
+    color: #e2f0dd;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-section .cta-button {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #134514ef;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #92bfa3; 
+}
+
+/* Footer */
+.footer {
+    background-color: #4a4a4a; 
+    color: #fff;
+    text-align: center;
+    padding: 40px 0; 
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer .footer-links a:hover {
+    color: #49a04b; 
+}
