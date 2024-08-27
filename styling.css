@@ -168,10 +168,11 @@ body {
 }
 
 .footer .footer-links {
-    list-style: disc;
+    list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer .footer-links a {
