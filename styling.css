@@ -168,7 +168,7 @@ body {
 }
 
 .footer .footer-links {
-    list-style: none;
+    list-style: disc;
     display: flex;
     justify-content: center;
     gap: 20px;
